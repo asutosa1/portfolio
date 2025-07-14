@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Database } from 'lucide-react';
+import profileImg from '../assets/profile.jpeg';
 
 const Hero: React.FC = () => {
   const scrollToNextSection = () => {
@@ -16,7 +17,7 @@ const Hero: React.FC = () => {
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-cyan-400 to-aqua-500 flex items-center justify-center shadow-2xl shadow-cyan-500/50 border-2 border-cyan-400/50">
               <img
-                src="/src/assets/profile.jpeg"
+                src={profileImg}
                 alt="Profile"
                 className="w-full h-full object-cover rounded-full"
               />
